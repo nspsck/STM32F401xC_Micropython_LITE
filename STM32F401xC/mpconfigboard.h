@@ -1,5 +1,5 @@
 #define MICROPY_HW_BOARD_NAME       ""
-#define MICROPY_HW_MCU_NAME         "STM32F401RC"
+#define MICROPY_HW_MCU_NAME         "STM32F401xC"
 #define MICROPY_PY_SYS_PLATFORM     ""
 
 // Disabled network realted functions to save space
@@ -103,12 +103,12 @@
 
 // USB config
 #define MICROPY_HW_USB_FS           (1)
-#define MICROPY_HW_FLASH_FS_LABEL   "f401rc"
+#define MICROPY_HW_FLASH_FS_LABEL   "f401xc"
 
 #define MICROPY_HW_USB_MANUFACTURER_STRING      "NB"
-#define MICROPY_HW_USB_PRODUCT_FS_STRING        "F401RC"
-#define MICROPY_HW_USB_CONFIGURATION_FS_STRING  "cfg"
-#define MICROPY_HW_USB_INTERFACE_FS_STRING      "if"
+#define MICROPY_HW_USB_PRODUCT_FS_STRING        "F401xC"
+#define MICROPY_HW_USB_CONFIGURATION_FS_STRING  "CFG"
+#define MICROPY_HW_USB_INTERFACE_FS_STRING      "IF"
 // This is to save a tiny little space taken by strings.
 #define MICROPY_HW_USB_PRODUCT_HS_STRING        ""
 #define MICROPY_HW_USB_CONFIGURATION_HS_STRING  ""
